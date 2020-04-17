@@ -1,0 +1,156 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2dae0;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #30475c;
+}
+
+.nav-bar li {
+    font-size: 18px;
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.top-header {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border-radius: 15%;
+    padding: 20px 0 5px 20px;
+}
+
+table {
+    padding: 5px 0 25px 15px;
+}
+
+td {
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 29px;
+    font-style: oblique;
+    padding: 50px 30px;
+    background-color: #d2dae0;
+}
+
+.body-info {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    background-color: #d2dae0;
+}
+
+.body-info h2 {
+    font-size: 20px;
+    padding: 0 0 5px 20px;
+}
+
+.body-info p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px 100px 5px 20px;
+}
+
+.body-info h3 {
+    font-size: 20px;
+    padding: 0 150px 5px 0;
+}
+
+.body-info ul {
+    font-size: 14px;
+    padding-top: 5px;
+    list-style-type: square;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    background-color: #d2dae0;
+}
+
+.form h3 {
+    color: #252121;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.form label {
+    font-size: 16px;
+}
+
+.form input[type=text] {
+    background-color: #e7dee7;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.form textarea {
+    background-color: #e7dee7;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form input[type=submit] {
+    color: #e2d1d1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color: #7dd17d;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 0;
+}
+
+.form input[type=submit]:hover {
+    background-color: aqua;
+    color: black;
+}
