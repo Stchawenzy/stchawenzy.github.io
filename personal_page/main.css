@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #30475c;
+    background-color: #104c84;
 }
 
 .nav-bar li {
@@ -59,6 +59,7 @@ td {
 }
 
 .header {
+    color: #104c84;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -70,6 +71,7 @@ td {
 
 .body-info {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding-bottom: 30px;
     background-color: #d2dae0;
@@ -83,17 +85,17 @@ td {
 .body-info p {
     font-size: 14px;
     text-align: justify;
-    padding: 5px 100px 5px 20px;
+    padding: 0 0 5px 20px;
 }
 
 .body-info h3 {
     font-size: 20px;
-    padding: 0 150px 5px 0;
+    padding: 10px 0 5px 20px;
 }
 
 .body-info ul {
     font-size: 14px;
-    padding-top: 5px;
+    padding: 0 0 5px 20px;
     list-style-type: square;
 }
 
@@ -139,7 +141,7 @@ td {
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 18px;
-    background-color: #7dd17d;
+    background-color: #5aca5a;
     padding: 20px;
     text-align: center;
     width: 100%;
