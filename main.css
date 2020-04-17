@@ -64,6 +64,8 @@ td {
     flex-wrap: wrap;
     justify-content: flex-start;
     font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: 700;
     font-style: oblique;
     padding: 50px 30px 50px 30px;
     background-color: #d2dae0;
@@ -107,7 +109,7 @@ td {
 }
 
 .form h3 {
-    color: #5c5858;
+    color: #104c84;
     font-size: 40px;
     letter-spacing: 1px;
     font-weight: 700;
